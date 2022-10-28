@@ -2,8 +2,8 @@ import React from 'react'
 
 const Button = (props) => {
   return (
-    <div className='w-full my-6 mx-auto flex items-center justify-center bg-[#EAECF0] hover:bg-[#D0D5DD] rounded-lg p-2 font-semibold'>
-        <a className='p-2' href={props.url} title={props.title}>{props.description}</a>
+    <div className='w-full sm:w-[80%] mx-auto'>
+        <a className='block w-full my-6 text-center justify-center bg-[#EAECF0] hover:bg-[#D0D5DD] rounded-lg p-3 font-semibold' href={props.url} title={props.title}>{props.description}</a>
     </div>
   )
 }
