@@ -35,7 +35,7 @@ function Profile() {
             <div style={{backgroundImage: `url(${Avatar})`, width:'100px', height:'100px', borderRadius:'50%'}} className='group bg-cover bg-no-repeat justify-center items-center py-10 w-[100px] mx-auto my-2'>
               {/* overlay */}
               <div className='opacity-0 group-hover:opacity-100 w-[100px] h-[100px] relative top-[-40px] rounded-full hover:bg-black/50'>
-                  <img src={avatarIcon} id='profile_img' alt='/' className= 'mx-auto relative top-16' />
+                  <img src={avatarIcon} id='profile__img' alt='/' className= 'mx-auto relative top-16' />
               </div>
             </div>
             
