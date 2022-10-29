@@ -3,7 +3,6 @@ import Avatar from '../assets/me.jpg'
 import avatarIcon from '../assets/Icon.png'
 import shareWeb from '../assets/shareWeb.png'
 import shareMobile from '../assets/shareMobile.png'
-import Button from './Button';
 import tooltip from '../assets/Tooltip.png'
 
 function Profile() {
@@ -41,16 +40,14 @@ function Profile() {
               </div>
             </div>
             
-            <h1 id='twitter' className='text-center font-bold text-2xl sm:text-4xl'>@temidayo_capo</h1>
-            <h1 id='slack' className='hidden text-center font-bold text-2xl sm:text-4xl'>Capo</h1>
+            <h1 id='slack' className='text-center font-bold text-2xl sm:text-4xl'>Temidayo Olugbenga</h1>
+            {/* <h1 id='slack' className='hidden text-center font-bold text-2xl sm:text-4xl'>Capo</h1> */}
           
           </div>
         </div>
                 
       </div>
-      <div className='w-[80%] mx-auto'>
-        <Button id='' url='https://twitter.com/temidayo_capo' description='Twitter Link' />
-      </div>
+      
            
     </div>
   );
