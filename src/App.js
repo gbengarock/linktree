@@ -6,7 +6,7 @@ import Socials from './components/Socials'
 
 const App = () => {
   return (
-    <div>
+    <div className='items-center text-gray-900'>
       <Profile />
       <Links />
       <Socials />

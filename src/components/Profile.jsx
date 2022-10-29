@@ -20,7 +20,7 @@ function Profile() {
     
     <div className='w-full h-full items-center'>
       
-      <div className='w-full sm:w-[80%] mx-auto items-center mt-10'>
+      <div className='w-full sm:w-[80%] mx-auto items-center my-10'>
         {/* share link icon */}
         <div className='flex items-end group absolute right-10 top-3 sm:right-[500px]'>
           <img src={tooltip} alt='/' className='opacity-0 group-hover:opacity-100 relative top-5 left-3' />
@@ -33,14 +33,14 @@ function Profile() {
 
         <div className='w-full flex-col items-center py-2'>
           <div className='w-[400px] items-center justify-center mx-auto'>
-            <div style={{backgroundImage: `url(${Avatar})`, width:'100px', height:'100px', borderRadius:'50%'}} className='group bg-cover bg-no-repeat justify-center items-center py-10 w-[100px] mx-auto my-2'>
+            <div style={{backgroundImage: `url(${Avatar})`, width:'100px', height:'100px', borderRadius:'50%'}} className='group bg-cover bg-no-repeat justify-center items-center py-10 w-[100px] mx-auto my-5'>
               {/* overlay */}
               <div className='opacity-0 group-hover:opacity-100 w-[100px] h-[100px] relative top-[-40px] rounded-full hover:bg-black/50'>
                   <img src={avatarIcon} id='profile__img' alt='/' className= 'mx-auto relative top-16' />
               </div>
             </div>
             
-            <h1 id='slack' className='text-center font-bold text-2xl sm:text-4xl'>Temidayo Olugbenga</h1>
+            <h1 id='slack' className='text-center font-bold text-lg sm:text-xl'>Temidayo Olugbenga</h1>
             {/* <h1 id='slack' className='hidden text-center font-bold text-2xl sm:text-4xl'>Capo</h1> */}
           
           </div>
