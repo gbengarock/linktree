@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Avatar from '../assets/me.jpg'
 import avatarIcon from '../assets/Icon.png'
 import shareWeb from '../assets/shareWeb.png'
