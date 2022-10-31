@@ -47,7 +47,7 @@ const Links = () => {
         <div className='items-center w-full gap-8 mx-auto'>
         {links.map((link) => (
           <a className='linkButton'
-            key={link.id}
+            // key={link.id}
             href={link.link}
             id={link.id}
             title={link.title}

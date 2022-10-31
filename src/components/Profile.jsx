@@ -42,7 +42,7 @@ function Profile() {
               </div>
             </div>
             
-            <h1 className='text-lg sm:text-xl'>Temidayo Olugbenga</h1>
+            <h1 className='text-lg sm:text-xl text-center font-bold'>Temidayo Olugbenga</h1>
             {/* <h1 id='slack' className='hidden text-center font-bold text-2xl sm:text-4xl'>Capo</h1> */}
           
           </div>
