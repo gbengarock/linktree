@@ -39,6 +39,12 @@ const Links = () => {
       link: "https://books.zuri.team/design-rules",
       title: "Design in the 21st century"
     },
+    {
+      id: "contact",
+      name: "Contact",
+      link: "/contact",
+      title: "Contact me here"
+    }
   ];
   return (
     <div className='mx-auto flex-col items-center justify-center'>
@@ -50,9 +56,8 @@ const Links = () => {
             // key={link.id}
             href={link.link}
             id={link.id}
-            title={link.title}
-            target="_blank"
-            rel="noopener noreferrer">{link.name}
+            title={link.title}>
+            {link.name}
           </a>
         ))
         }
